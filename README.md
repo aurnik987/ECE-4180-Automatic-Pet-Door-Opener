@@ -56,16 +56,22 @@ Espressif's official ESP32 Arduino core is available on GitHub. More details can
 
 ### Demos
 Demo - manually opening/closing latch from web server:
+
 VID_20181211_112217 (1).mp4
 
+
 Demo - web server changing its status to 'pet detected' when the pet is detected in manual mode:
+
 VID_20181211_112329 (1).mp4
+
 
 Demo - web server changing its status to 'pet not detected' when the pet collar is out of range:
 VID_20181211_112956 (1).mp4
 
+
 Demo - changing to 'automatic', latch is not opened when the pet collar is out of range:
 VID_20181211_113042 (1).mp4
+
 
 Demo - the latch opening and closing when the motion sensor is triggered with the pet collar in range:
 VID_20181211_113110 (1).mp4
