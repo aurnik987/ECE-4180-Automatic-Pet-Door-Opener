@@ -14,8 +14,22 @@ A web server is created that allows the pet's owner to manually toggle the door 
 2 X SparkFun ESP32 Thing https://www.sparkfun.com/products/13907
 
 1 X SparkFun PIR Motion Sensor https://www.sparkfun.com/products/13285
+
 1 X SparkFun Servo Hitec HT-422 Motor (Parts Kit) https://www.sparkfun.com/products/11884
+
 1 X SparkFun Lithium 3.7A 850mAh Battery https://www.digikey.com/product-detail/en/sparkfun-electronics/PRT-13854/1568-1495-ND/6605201
+
 1 X Adafruit 5V 2A Power Supply (Parts Kit) https://www.adafruit.com/product/1994
+
 1 X Barrel Jack to Breadboard Adapter (Parts Kit)
+
 Parts for Door (2x4s for the door frame, plywood for the door, hinges, screws, metal plate for latch stopper)
+
+--------------------
+
+The ESP32 Thing chip from Sparkfun has a Bluetooth module built in and is already interfaced by its developers, which makes it convenient to use as both a Bluetooth scanner and Bluetooth beacon. The scanner chip is placed on the back of the door itself while the beacon chip is placed on the pet's collar. The beacon chip is powered by the lithium battery. The two ESP32 Thing chips establish a proximity value based on the strength of their Bluetooth connection (RSSI). 
+
+The motion sensor is placed on the front of the door, looking downwards. When the motion sensor is triggered, the RSSI value of the Bluetooth connection is tested, and if it is strong enough, a command to turn the servo motor and lift the latch will be issued. The scanner chip, motion sensor, and servo motor will be powered by a 5V power supply with a barrel jack to breadboard pin adapter. 
+
+
+
