@@ -44,6 +44,10 @@ The motion sensor is placed on the front of the door, looking downwards. When th
 ## Source Code
 The source code was written in the Arduino IDE. Different code is uploaded to the ESP32 Thing scanner and the ESP32 Thing beacon. SparkFun has a good tutorial on how to download ESP32 default libraries to the Arduino IDE.
 
+All source code is in the 'Iot_Pet_Door_Opener' folder. 'BLE_iBeacon_modified.ino' is the code for the ESP32 beacon, and 'Iot_Pet_Door_Opener.ino' is the code for the ESP32 scanner, which additionally contains all the logic to open the door latch and send notifications. Libraries for email notifications and the servo motor control are also in the 'Iot_Pet_Door_Opener' folder.
+
+Espressif's official ESP32 Arduino core is available on GitHub. More details can be found through Sparkfun's ESP32 Thing Hookup Guide: https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide.
+
 ## Photos and Demos
 ### Photos/Videos:
 ![Back](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/IMG_20181211_112017.jpg)
