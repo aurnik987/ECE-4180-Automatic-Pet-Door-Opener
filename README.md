@@ -39,10 +39,10 @@ Updated Design:
 Schematic:
 
 ## Source Code
-The source code was written in the Arduino IDE. Different code is uploaded to the ESP32 Thing scanner and the ESP32 Thing beacon.
+The source code was written in the Arduino IDE. Different code is uploaded to the ESP32 Thing scanner and the ESP32 Thing beacon. SparkFun has a good tutorial on how to download ESP32 default libraries to the Arduino IDE.
 
 ## Photos and Demos
-Photos:
+Photos/Videos:
 
 Demo - manually opening/closing latch from web server:
 
