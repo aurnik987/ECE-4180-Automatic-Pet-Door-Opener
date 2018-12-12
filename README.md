@@ -33,7 +33,7 @@ The motion sensor is placed on the front of the door, looking downwards. When th
 
 ## Design and Schematic
 ### Initial Design
-![Initial Design:}(https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_29_13_Pro.jpg)
+![Initial Design:](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_29_13_Pro.jpg)
 
 ### Updated Design
 ![Updated Design:](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_29_34_Pro.jpg)
@@ -45,8 +45,12 @@ The motion sensor is placed on the front of the door, looking downwards. When th
 The source code was written in the Arduino IDE. Different code is uploaded to the ESP32 Thing scanner and the ESP32 Thing beacon. SparkFun has a good tutorial on how to download ESP32 default libraries to the Arduino IDE.
 
 ## Photos and Demos
-Photos/Videos:
+### Photos/Videos:
+![Back](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/IMG_20181211_112017.jpg)
+![Front](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/IMG_20181211_112030.jpg)
+![Setup](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/IMG_20181211_112013.jpg)
 
+### Demos
 Demo - manually opening/closing latch from web server:
 
 Demo - web server changing its status to 'pet detected' when the pet is detected in manual mode:
