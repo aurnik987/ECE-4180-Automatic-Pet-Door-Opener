@@ -27,9 +27,29 @@ Parts for Door (2x4s for the door frame, plywood for the door, hinges, screws, m
 
 --------------------
 
-The ESP32 Thing chip from Sparkfun has a Bluetooth module built in and is already interfaced by its developers, which makes it convenient to use as both a Bluetooth scanner and Bluetooth beacon. The scanner chip is placed on the back of the door itself while the beacon chip is placed on the pet's collar. The beacon chip is powered by the lithium battery. The two ESP32 Thing chips establish a proximity value based on the strength of their Bluetooth connection (RSSI). 
+The ESP32 Thing chip from Sparkfun has a Bluetooth module built in and is already interfaced by its developers through the Arduino IDE, which makes it convenient to use as both a Bluetooth scanner and Bluetooth beacon. The scanner chip is placed on the back of the door itself while the beacon chip is placed on the pet's collar. The beacon chip is powered by the lithium battery. The two ESP32 Thing chips establish a proximity value based on the strength of their Bluetooth connection (RSSI). 
 
 The motion sensor is placed on the front of the door, looking downwards. When the motion sensor is triggered, the RSSI value of the Bluetooth connection is tested, and if it is strong enough, a command to turn the servo motor and lift the latch will be issued. The scanner chip, motion sensor, and servo motor will be powered by a 5V power supply with a barrel jack to breadboard pin adapter. 
 
+## Design and Schematic
+Initial Design:
 
+Updated Design:
 
+Schematic:
+
+## Source Code
+The source code was written in the Arduino IDE. Different code is uploaded to the ESP32 Thing scanner and the ESP32 Thing beacon.
+
+## Photos and Demos
+Photos:
+
+Demo - manually opening/closing latch from web server:
+
+Demo - web server changing its status to 'pet detected' when the pet is detected in manual mode:
+
+Demo - web server changing its status to 'pet not detected' when the pet collar is out of range:
+
+Demo - changing to 'automatic', latch is not opened when the pet collar is out of range:
+
+Demo - the latch opening and closing when the motion sensor is triggered with the pet collar in range:
