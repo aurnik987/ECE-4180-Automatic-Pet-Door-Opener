@@ -12,6 +12,7 @@ A web server is created that allows the pet's owner to manually toggle the door 
 
 ## Parts List
 2 X SparkFun ESP32 Thing https://www.sparkfun.com/products/13907
+
 1 X SparkFun PIR Motion Sensor https://www.sparkfun.com/products/13285
 1 X SparkFun Servo Hitec HT-422 Motor (Parts Kit) https://www.sparkfun.com/products/11884
 1 X SparkFun Lithium 3.7A 850mAh Battery https://www.digikey.com/product-detail/en/sparkfun-electronics/PRT-13854/1568-1495-ND/6605201
