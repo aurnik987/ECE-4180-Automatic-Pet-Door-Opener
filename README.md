@@ -3,7 +3,7 @@
 ## Team Members
 Nikhil Auradkar, Salim Ben Ghorbel
 
-# Project Description
+## Project Description
 The purpose of this project is to create a pet door that automatically unlocks when it senses a pet in front of it, using a combination of motion detection and Bluetooth sensing. The motivations for the project include creating a pet door that is more secure than a typical one.
 
 As mentioned earlier, the door opens via a 'two-factor authentication' of a motion detector and Bluetooth scanner/beacon (the pet wears the beacon on its collar, and the scanner is placed on the door). If the motion detector triggers on movement, then the Bluetooth signal strength of the pet will be tested. If the strength is above a certain value, the pet will be let through the door.
@@ -31,7 +31,7 @@ The ESP32 Thing chip from Sparkfun has a Bluetooth module built in and is alread
 
 The motion sensor is placed on the front of the door, looking downwards. When the motion sensor is triggered, the RSSI value of the Bluetooth connection is tested, and if it is strong enough, a command to turn the servo motor and lift the latch will be issued. The scanner chip, motion sensor, and servo motor will be powered by a 5V power supply with a barrel jack to breadboard pin adapter. 
 
-## Design and Schematic
+## Designs and Schematic
 ### Initial Design
 ![Initial Design:](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_29_13_Pro.jpg)
 
@@ -54,7 +54,7 @@ Espressif's official ESP32 Arduino core is available on GitHub. More details can
 ![Front](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/IMG_20181211_112030.jpg)
 ![Setup](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/IMG_20181211_112013.jpg)
 
-### Demos
+## Demos
 ### Demo - manually opening/closing latch from web server:
 VID_20181211_112217 (1).mp4
 
@@ -69,3 +69,9 @@ VID_20181211_113042 (1).mp4
 
 ### Demo - the latch opening and closing when the motion sensor is triggered with the pet collar in range:
 VID_20181211_113110 (1).mp4
+
+## Next Steps / Improvements
+- Create the same functionality, but with a 2-way door
+- Stronger servo will be able to move a heavier latch
+- Better motion detector will be able to reduce wait times
+- Change the automatic 5 second latch opening to a system that detects when the door opens/closes
