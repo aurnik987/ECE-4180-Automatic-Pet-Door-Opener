@@ -36,7 +36,7 @@ Initial Design:
 
 Updated Design:
 
-Schematic:
+![Schematic:](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_28_39_Pro.jpg)
 
 ## Source Code
 The source code was written in the Arduino IDE. Different code is uploaded to the ESP32 Thing scanner and the ESP32 Thing beacon. SparkFun has a good tutorial on how to download ESP32 default libraries to the Arduino IDE.
