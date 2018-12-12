@@ -32,10 +32,13 @@ The ESP32 Thing chip from Sparkfun has a Bluetooth module built in and is alread
 The motion sensor is placed on the front of the door, looking downwards. When the motion sensor is triggered, the RSSI value of the Bluetooth connection is tested, and if it is strong enough, a command to turn the servo motor and lift the latch will be issued. The scanner chip, motion sensor, and servo motor will be powered by a 5V power supply with a barrel jack to breadboard pin adapter. 
 
 ## Design and Schematic
-Initial Design:
+### Initial Design
+![Initial Design:}(https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_29_13_Pro.jpg)
 
-Updated Design:
+### Updated Design
+![Updated Design:](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_29_34_Pro.jpg)
 
+### Schematic
 ![Schematic:](https://raw.githubusercontent.com/aurnik987/ECE-4180-Automatic-Pet-Door-Opener/master/WIN_20181212_09_28_39_Pro.jpg)
 
 ## Source Code
